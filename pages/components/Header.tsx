@@ -2,29 +2,87 @@ import React from "react";
 import { useState } from "react";
 import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
+import { Dropdown } from "react-bootstrap";
+import styles from "../../styles/Header.module.css";
 
 const Header = () => {
   const [mobileHeader, setMobileHeader] = useState(false);
+  const [mobileServices, setMobileServices] = useState(false);
+  const [mobileCompany, setMobileCompany] = useState(false);
 
   const handleMobileHeader = () => {
     setMobileHeader(!mobileHeader);
+  };
+
+  const handleMobileServices = () => {
+    if (mobileServices != true && mobileCompany == true) {
+      setMobileServices(!mobileServices);
+      setMobileCompany(!mobileCompany);
+    } else {
+      setMobileServices(!mobileServices);
+    }
+  };
+
+  const handleMobileCompany = () => {
+    if (mobileCompany != true && mobileServices == true) {
+      setMobileServices(!mobileServices);
+      setMobileCompany(!mobileCompany);
+    } else {
+      setMobileCompany(!mobileCompany);
+    }
   };
 
   return (
     <div>
       <div
         id="desktopheader"
-        className="fixed hidden w-full items-center bg-white p-12 text-black md:flex md:flex-row"
+        className="fixed hidden w-full items-center bg-white p-12 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
       >
-        <div className="w-1/5 text-center font-bold">Services</div>
+        <div className="text-center">
+          <Dropdown>
+            <Dropdown.Toggle
+              id={styles.servicesbutton}
+              className="flex flex-row items-center border-0 bg-white   active:outline-none"
+            >
+              <div className="inline-block font-bold ">Services</div>
+            </Dropdown.Toggle>
 
-        <div className="w-1/5 text-center font-bold">Company</div>
+            <Dropdown.Menu id={styles.services}>
+              <Dropdown.Item>Application Development</Dropdown.Item>
+              <Dropdown.Item>Cybersecurity</Dropdown.Item>
+              <Dropdown.Item>Cloud Systems Development</Dropdown.Item>
+              <Dropdown.Item>Project and Process Management</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </div>
 
-        <div className="w-1/5 text-center font-bold">GreakTech</div>
+        <div className="text-center">
+          <Dropdown>
+            <Dropdown.Toggle
+              id={styles.companybutton}
+              className="flex flex-row items-center border-0 bg-white   active:outline-none"
+            >
+              <div className="inline-block font-bold ">Company</div>
+            </Dropdown.Toggle>
 
-        <div className="w-1/5 text-center font-bold">+18334758324</div>
+            <Dropdown.Menu id={styles.company}>
+              <Dropdown.Item>About Us</Dropdown.Item>
+              <Dropdown.Item>Why GreakTech?</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </div>
 
-        <div className="w-1/5 text-center font-bold">Let's Get Started</div>
+        <div className="text-center font-bold">
+          <img
+            src="https://greaktech.com/static/media/logoondarkbckgrnd.a1284e4e.svg"
+            alt="logo"
+            className="w-full"
+          />
+        </div>
+
+        <div className="text-center font-bold">+18334758324</div>
+
+        <div className=" text-center font-bold">Let's Get Started</div>
       </div>
 
       <div
@@ -62,8 +120,41 @@ const Header = () => {
           <div>
             {mobileHeader ? (
               <div className="flex flex-col items-start bg-white p-4 text-black md:hidden">
-                <button className="p-8 font-bold">Services</button>
-                <button className="p-8 font-bold">Company</button>
+                <button
+                  onClick={handleMobileServices}
+                  className="p-8 font-bold"
+                >
+                  Services
+                </button>
+
+                <div className="py-4">
+                  {mobileServices ? (
+                    <div className="flex flex-col rounded-lg border-2 border-gray-500 bg-white p-4 text-black">
+                      <h3>Application Development</h3>
+                      <h3>Cybersecurity</h3>
+                      <h3>Cloud Systems Development</h3>
+                      <h3>Project and Process Management</h3>
+                    </div>
+                  ) : (
+                    <div className="hidden"></div>
+                  )}
+                </div>
+
+                <button onClick={handleMobileCompany} className="p-8 font-bold">
+                  Company
+                </button>
+
+                <div className="py-4">
+                  {mobileCompany ? (
+                    <div className="flex flex-col rounded-lg border-2 border-gray-500 bg-white p-4 text-black">
+                      <h3>About Us</h3>
+                      <h3>Why GreakTech?</h3>
+                    </div>
+                  ) : (
+                    <div className="hidden"></div>
+                  )}
+                </div>
+
                 <button className="bg-lime-600 p-8 font-bold">
                   Let's Get Started
                 </button>
