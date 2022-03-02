@@ -4,6 +4,7 @@ import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
 import { Dropdown } from "react-bootstrap";
 import styles from "../../styles/Header.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   const [mobileHeader, setMobileHeader] = useState(false);
@@ -36,7 +37,7 @@ const Header = () => {
     <div>
       <div
         id="desktopheader"
-        className="fixed hidden w-full items-center bg-white p-12 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
+        className="fixed hidden w-full items-center bg-white px-12 py-4 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
       >
         <div className="text-center">
           <Dropdown>
@@ -87,7 +88,7 @@ const Header = () => {
 
       <div
         id="mobileheader"
-        className="w-full bg-white py-4 px-2 text-black shadow-2xl"
+        className="fixed w-full bg-white py-4 px-2 text-black shadow-2xl md:hidden"
       >
         <div className="flex flex-row justify-between">
           <button
@@ -119,7 +120,7 @@ const Header = () => {
         <SlideDown>
           <div>
             {mobileHeader ? (
-              <div className="flex flex-col items-start bg-white p-4 text-black md:hidden">
+              <div className=" flex flex-col items-start bg-white p-4 text-black md:hidden">
                 <button
                   onClick={handleMobileServices}
                   className="p-8 font-bold"

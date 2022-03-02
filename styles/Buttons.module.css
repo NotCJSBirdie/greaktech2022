@@ -1,0 +1,38 @@
+#buttonA {
+  background-color: #86be73;
+  color: black;
+  border-color: #86be73;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#buttonA:focus {
+  outline: none;
+  box-shadow: none;
+
+  outline-offset: none;
+}
+
+#buttonB {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#buttonB:focus {
+  outline: none;
+  box-shadow: none;
+
+  outline-offset: none;
+}
