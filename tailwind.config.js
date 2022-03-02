@@ -6,6 +6,8 @@ module.exports = {
     "./pages/components/Header.tsx",
     "./pages/components/Hero.tsx",
     "./pages/components/Buttons.tsx",
+    "./pages/components/Expect.tsx",
+    "./pages/components/HQ.tsx",
   ],
   theme: {
     extend: {},
