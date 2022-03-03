@@ -75,7 +75,10 @@ const HQ = () => {
         </div>
 
         <div className="flex w-full flex-col items-center">
-          <button className="rounded-lg border-2 border-lime-600 bg-white py-3 px-20 text-black hover:bg-lime-600 hover:text-white">
+          <button
+            id={styles.learnmore}
+            className="rounded-lg border-2  py-3 px-20"
+          >
             Learn More About Us
           </button>
         </div>

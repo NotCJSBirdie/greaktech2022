@@ -8,6 +8,7 @@
   padding-right: 64px;
   padding-top: 16px;
   padding-bottom: 16px;
+  border-radius: 8px;
 }
 
 #buttonA:focus {
@@ -28,6 +29,7 @@
   padding-right: 64px;
   padding-top: 16px;
   padding-bottom: 16px;
+  border-radius: 8px;
 }
 
 #buttonB:focus {
@@ -37,5 +39,10 @@
 }
 
 #buttonB:hover {
-  background-color: black;
+  background-color: #86be73;
+  color: white;
+}
+
+#buttonA:hover {
+  color: white;
 }

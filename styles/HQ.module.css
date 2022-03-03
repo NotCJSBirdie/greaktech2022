@@ -1,3 +1,8 @@
-#honesty {
-  width: 30%;
+#learnmore:hover {
+  background-color: #86be73;
+  color: white;
+}
+
+#learnmore {
+  border-color: #86be73;
 }

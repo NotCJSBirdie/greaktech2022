@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "./components/Header";
-import styles from "../styles/Home.module.css";
 import Hero from "./components/Hero";
 import Buttons from "./components/Buttons";
 import Expect from "./components/Expect";
 import HQ from "./components/HQ";
+import Versatile from "./components/Versatile";
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +27,8 @@ const Home: NextPage = () => {
       <Expect />
 
       <HQ />
+
+      <Versatile />
     </div>
   );
 };
