@@ -37,7 +37,7 @@ const Header = () => {
     <div>
       <div
         id="desktopheader"
-        className="fixed hidden w-full items-center bg-white px-12 py-4 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
+        className="fixed z-10 hidden w-full items-center bg-white px-12 py-4 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
       >
         <div className="text-center">
           <Dropdown>
@@ -88,7 +88,7 @@ const Header = () => {
 
       <div
         id="mobileheader"
-        className="fixed w-full bg-white py-4 px-2 text-black shadow-2xl md:hidden"
+        className="fixed z-10 w-full bg-white py-4 px-2 text-black shadow-2xl md:hidden"
       >
         <div className="flex flex-row justify-between">
           <button

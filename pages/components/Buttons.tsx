@@ -5,9 +5,13 @@ import styles from "../../styles/Buttons.module.css";
 const Buttons = () => {
   return (
     <div className="w-full">
-      <div className="flex flex-row px-20">
-        <Button id={styles.buttonA}>Lets Get Started</Button>
-        <Button id={styles.buttonB}>Our Services</Button>
+      <div className="flex flex-col items-center px-20 md:flex-row">
+        <Button id={styles.buttonA} className="mb-6 mt-12 md:my-0">
+          Lets Get Started
+        </Button>
+        <Button id={styles.buttonB} className="mt-6 mb-12 md:my-0">
+          Our Services
+        </Button>
       </div>
     </div>
   );
