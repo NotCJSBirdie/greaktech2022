@@ -3,4 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = { nextConfig, swcMinify: true, styledComponents: true };
+module.exports = { nextConfig, swcMinify: false, styledComponents: true };

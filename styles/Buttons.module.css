@@ -33,6 +33,9 @@
 #buttonB:focus {
   outline: none;
   box-shadow: none;
-
   outline-offset: none;
+}
+
+#buttonB:hover {
+  background-color: black;
 }

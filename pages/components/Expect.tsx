@@ -2,7 +2,7 @@ import React from "react";
 
 const Expect = () => {
   return (
-    <div className="w-full bg-white px-28">
+    <div className="w-full bg-white px-8 md:px-28">
       <div className="flex flex-col items-center">
         <h2>What You Can Expect From Us</h2>
 

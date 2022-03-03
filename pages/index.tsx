@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import styles from "../styles/Home.module.css";
 import Hero from "./components/Hero";
 import Buttons from "./components/Buttons";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Expect from "./components/Expect";
 import HQ from "./components/HQ";
 
