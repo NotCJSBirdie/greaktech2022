@@ -22,8 +22,8 @@ const Footer = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-facebook"
-              width="52"
-              height="52"
+              width="40"
+              height="40"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#000000"
@@ -37,8 +37,8 @@ const Footer = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-instagram"
-              width="52"
-              height="52"
+              width="40"
+              height="40"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#000000"
@@ -54,8 +54,8 @@ const Footer = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-linkedin"
-              width="52"
-              height="52"
+              width="40"
+              height="40"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#000000"

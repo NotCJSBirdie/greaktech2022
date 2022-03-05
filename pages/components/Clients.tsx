@@ -3,12 +3,12 @@ import styles from "../../styles/Clients.module.css";
 
 const Clients = () => {
   return (
-    <div className="w-full bg-white px-20 text-black">
+    <div className="w-full bg-white px-8 text-black md:px-20">
       <div className="flex flex-col items-center">
         <h3>What Our Clients Are Saying About Us</h3>
 
-        <div className="flex items-center md:flex-row">
-          <div className="w-1/2 p-10">
+        <div className="flex flex-col items-center md:flex-row">
+          <div className="w-full py-4 px-4 md:w-1/2 md:p-10">
             <div
               id={styles.testimonial}
               className="flex flex-col items-center  p-10 text-black"
@@ -25,7 +25,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="w-1/2 p-10">
+          <div className="w-full py-4 px-4 md:w-1/2 md:p-10">
             <div
               id={styles.testimonial}
               className="flex flex-col items-center p-10 text-black"
