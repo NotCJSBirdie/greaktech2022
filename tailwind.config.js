@@ -13,6 +13,7 @@ module.exports = {
     "./pages/components/Clients.tsx",
     "./pages/components/Contact.tsx",
     "./pages/components/Footer.tsx",
+    "./pages/components/Form.tsx",
   ],
   theme: {
     extend: {},
