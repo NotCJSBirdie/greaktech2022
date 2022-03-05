@@ -9,6 +9,7 @@ module.exports = {
     "./pages/components/Expect.tsx",
     "./pages/components/HQ.tsx",
     "./pages/components/Versatile.tsx",
+    "./pages/components/Worked.tsx",
   ],
   theme: {
     extend: {},

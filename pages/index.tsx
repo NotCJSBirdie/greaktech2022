@@ -6,6 +6,7 @@ import Buttons from "./components/Buttons";
 import Expect from "./components/Expect";
 import HQ from "./components/HQ";
 import Versatile from "./components/Versatile";
+import Worked from "./components/Worked";
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +30,8 @@ const Home: NextPage = () => {
       <HQ />
 
       <Versatile />
+
+      <Worked />
     </div>
   );
 };

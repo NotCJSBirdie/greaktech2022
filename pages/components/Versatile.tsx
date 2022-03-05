@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { useRef } from "react";
+import styles from "../../styles/Versatile.module.css";
 
 const Versatile = () => {
   const slider = useRef(null);
@@ -50,7 +51,7 @@ const Versatile = () => {
         </p>
       </div>
 
-      <div className="relative top-40 mx-6 flex flex-row justify-between md:mx-10">
+      <div className="relative top-64 mx-6 flex flex-row justify-between md:mx-10">
         <button
           className="rounded-full bg-gray-600"
           onClick={() => slider?.current?.slickPrev()}
@@ -182,7 +183,11 @@ const Versatile = () => {
         </Slider>
       </div>
 
-      <div className=""></div>
+      <div className="flex w-full flex-col items-center">
+        <button id={styles.viewall} className="rounded-lg px-28 py-3">
+          View All Services
+        </button>
+      </div>
     </div>
   );
 };
