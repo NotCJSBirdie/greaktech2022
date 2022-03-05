@@ -10,6 +10,9 @@ module.exports = {
     "./pages/components/HQ.tsx",
     "./pages/components/Versatile.tsx",
     "./pages/components/Worked.tsx",
+    "./pages/components/Clients.tsx",
+    "./pages/components/Contact.tsx",
+    "./pages/components/Footer.tsx",
   ],
   theme: {
     extend: {},

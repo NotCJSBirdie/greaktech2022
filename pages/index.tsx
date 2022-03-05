@@ -7,6 +7,9 @@ import Expect from "./components/Expect";
 import HQ from "./components/HQ";
 import Versatile from "./components/Versatile";
 import Worked from "./components/Worked";
+import Clients from "./components/Clients";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -32,6 +35,12 @@ const Home: NextPage = () => {
       <Versatile />
 
       <Worked />
+
+      <Clients />
+
+      <Contact />
+
+      <Footer />
     </div>
   );
 };
