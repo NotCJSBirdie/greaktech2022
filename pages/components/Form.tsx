@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/Form.module.css";
+import { useState } from "react";
 
 const Form = () => {
   return (
@@ -67,20 +68,49 @@ const Form = () => {
           ></input>
         </div>
 
-        <div id={styles.selectdiv} className="w-1/2 text-center">
-          <select
-            name="I am looking for"
-            placeholder="I am looking for"
-            className=" w-full appearance-none border-2 border-gray-400 bg-white p-6 text-xl focus:outline-none"
-          >
+        <div className="w-1/2">
+          <select className="w-full border-2 border-gray-400 bg-white p-6 text-xl">
             <option value="" disabled selected>
               I am looking for
             </option>
-            <option>Volvo</option>
-            <option>Saab</option>
-            <option>Mercedes</option>
-            <option>Audi</option>
+            <option>Application Development</option>
+            <option>Cybersecurity</option>
+            <option>Cloud Services</option>
+            <option>Technical Consulting</option>
+            <option>Other</option>
           </select>
+        </div>
+      </div>
+
+      <div className="my-6 flex flex-row items-center">
+        <div className="w-full">
+          <select className="w-full border-2 border-gray-400 bg-white p-6 text-xl">
+            <option value="" disabled selected>
+              What is your approximate budget?
+            </option>
+            <option>$0 - $50,000</option>
+            <option>$50,000 - $150,000</option>
+            <option>$150,000 - $250,000</option>
+            <option>$250,000 - $500,000</option>
+            <option>$500,000+</option>
+          </select>
+        </div>
+      </div>
+
+      <div className="my-6 flex flex-row items-center">
+        <div className="w-full">
+          <textarea
+            className="w-full border-2 border-gray-400 px-6 pb-32 pt-6 text-xl focus:outline-none"
+            placeholder="How can we help you?"
+          ></textarea>
+        </div>
+      </div>
+
+      <div className="my-6 flex flex-row items-center">
+        <div className="flex w-full flex-col items-center">
+          <button id={styles.buttonform} className="rounded-lg py-3 px-24">
+            Send Us A Message
+          </button>
         </div>
       </div>
     </div>
