@@ -8,7 +8,7 @@ const HowApp = () => {
         <h2>How We Can Make Your Life Easier</h2>
       </div>
 
-      <div className="grid grid-cols-4 grid-rows-1">
+      <div className="grid grid-cols-1 grid-rows-4 md:grid-cols-4 md:grid-rows-1">
         <div className="flex flex-col items-center p-8">
           <div className="pb-2">
             <img
@@ -54,12 +54,12 @@ const HowApp = () => {
             />
           </div>
 
-          <h4 className="my-3">Fullstack WebDev</h4>
+          <h5 className="my-3 font-bold">App Optimization</h5>
 
           <p className="mb-3 text-left">
-            Our developers are experts in many development languages and we work
-            tirelessly to stay up to date with the latest industry standards and
-            practices.
+            Many sites suffer from poor performance. We work with you to improve
+            key areas of your web or mobile application to increase performance,
+            stability, and reliability.
           </p>
         </div>
 
@@ -72,12 +72,13 @@ const HowApp = () => {
             />
           </div>
 
-          <h4 className="my-3">Fullstack WebDev</h4>
+          <h5 className="my-3 font-bold">Visual Design</h5>
 
           <p className="mb-3 text-left">
-            Our developers are experts in many development languages and we work
-            tirelessly to stay up to date with the latest industry standards and
-            practices.
+            Most functional websites could use a facelift, our design team will
+            work with you to bring your site into the current standards while
+            maximizing profits and giving your users the best experience
+            possible.
           </p>
         </div>
       </div>

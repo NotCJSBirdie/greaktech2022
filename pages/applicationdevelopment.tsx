@@ -6,7 +6,7 @@ import ServiceButtons from "./components/ServiceButtons";
 
 const applicationdevelopment = () => {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <Header />
 
       <AppHero />

@@ -4,9 +4,9 @@ import styles from "../../styles/ServiceButtons.module.css";
 
 const ServiceButtons = () => {
   return (
-    <div className="relative bottom-12 w-full">
-      <div className="flex flex-col items-center px-32 md:flex-row">
-        <div className="mx-4 w-1/4">
+    <div className="relative my-10 w-full p-8 md:bottom-12 md:my-0">
+      <div className="flex flex-col items-end px-20 md:flex-row md:items-center">
+        <div className="mx-4 w-full md:w-1/4">
           <Link href="/letsgetstarted">
             <button
               id={styles.servicebuttonA}
@@ -17,7 +17,7 @@ const ServiceButtons = () => {
           </Link>
         </div>
 
-        <div className="mx-4 w-1/4">
+        <div className="mx-4 w-full md:w-1/4">
           <Link href="/applicationdevelopment">
             <button
               id={styles.servicebuttonB}
@@ -29,7 +29,7 @@ const ServiceButtons = () => {
           </Link>
         </div>
 
-        <div className="mx-4 w-1/4">
+        <div className="mx-4 w-full md:w-1/4">
           <Link href="/applicationdevelopment">
             <button
               id={styles.servicebuttonC}
@@ -40,7 +40,7 @@ const ServiceButtons = () => {
           </Link>
         </div>
 
-        <div className="mx-4 w-1/4">
+        <div className="mx-4 w-full md:w-1/4">
           <Link href="/applicationdevelopment">
             <button
               id={styles.servicebuttonD}
