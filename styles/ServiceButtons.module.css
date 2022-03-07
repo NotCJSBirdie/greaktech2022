@@ -1,0 +1,100 @@
+#servicebuttonA {
+  background-color: #86be73;
+  color: black;
+  border-color: #86be73;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+#servicebuttonA:focus {
+  outline: none;
+  box-shadow: none;
+
+  outline-offset: none;
+}
+
+#servicebuttonB {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#servicebuttonB:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#servicebuttonB:hover {
+  background-color: #86be73;
+  color: white;
+}
+
+#servicebuttonA:hover {
+  color: white;
+  background-color: #86be73;
+}
+
+#servicebuttonC {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#servicebuttonC:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#servicebuttonC:hover {
+  background-color: #86be73;
+  color: white;
+}
+
+#servicebuttonD {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#servicebuttonD:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#servicebuttonD:hover {
+  background-color: #86be73;
+  color: white;
+}

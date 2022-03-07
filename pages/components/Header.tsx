@@ -5,6 +5,7 @@ import "react-slidedown/lib/slidedown.css";
 import { Dropdown } from "react-bootstrap";
 import styles from "../../styles/Header.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 
 const Header = () => {
   const [mobileHeader, setMobileHeader] = useState(false);
@@ -37,7 +38,7 @@ const Header = () => {
     <div>
       <div
         id="desktopheader"
-        className="fixed z-10 hidden w-full items-center bg-white px-12 py-4 text-black shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
+        className="fixed z-10 hidden w-full items-center bg-white px-12 py-4 shadow-2xl md:grid md:grid-cols-5 md:grid-rows-1 md:items-center md:gap-4"
       >
         <div className="text-center">
           <Dropdown>
@@ -74,16 +75,29 @@ const Header = () => {
         </div>
 
         <div className="text-center font-bold">
-          <img
-            src="https://greaktech.com/static/media/logoondarkbckgrnd.a1284e4e.svg"
-            alt="logo"
-            className="w-full"
-          />
+          <Link href="/">
+            <a>
+              <img
+                src="https://greaktech.com/static/media/logoondarkbckgrnd.a1284e4e.svg"
+                alt="logo"
+                className="w-full"
+              />
+            </a>
+          </Link>
         </div>
 
         <div className="text-center font-bold">+18334758324</div>
 
-        <div className=" text-center font-bold">Let's Get Started</div>
+        <div className="text-center font-bold hover:text-white">
+          <Link href="/letsgetstarted">
+            <button
+              id={styles.letsgetstartedbutton}
+              className="rounded-lg px-6 py-3"
+            >
+              Lets Get Started
+            </button>
+          </Link>
+        </div>
       </div>
 
       <div

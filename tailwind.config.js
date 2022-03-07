@@ -14,6 +14,11 @@ module.exports = {
     "./pages/components/Contact.tsx",
     "./pages/components/Footer.tsx",
     "./pages/components/Form.tsx",
+    "./pages/letsgetstarted.tsx",
+    "./pages/applicationdevelopment.tsx",
+    "./pages/components/AppHero.tsx",
+    "./pages/components/ServiceButtons.tsx",
+    "./pages/components/HowApp.tsx",
   ],
   theme: {
     extend: {},

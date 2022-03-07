@@ -35,3 +35,14 @@
 #companybutton {
   color: black;
 }
+
+#letsgetstartedbutton {
+  background-color: #86be73;
+  border-color: #86be73;
+  color: black;
+}
+
+#letsgetstartedbutton:hover {
+  color: #ffffff;
+  background-color: darkgreen;
+}
