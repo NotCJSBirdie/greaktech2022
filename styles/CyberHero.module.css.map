@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACnB,gBAAgB,CAAE,wEAAwE,CAC1F,eAAe,CAAE,KAAK,CACtB,KAAK,CAAE,IAAI,CACZ",
     "sources": [
         "CyberHero.module.scss"
     ],

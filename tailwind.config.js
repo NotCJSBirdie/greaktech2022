@@ -22,6 +22,8 @@ module.exports = {
     "./pages/components/DoIt.tsx",
     "./pages/components/StillUnsure.tsx",
     "./pages/cybersecurity.tsx",
+    "./pages/components/CyberHero.tsx",
+    "./pages/components/CyberButtons.tsx",
   ],
   theme: {
     extend: {},
