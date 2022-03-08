@@ -2,6 +2,7 @@ import React from "react";
 import CyberButtons from "./components/CyberButtons";
 import CyberHero from "./components/CyberHero";
 import Header from "./components/Header";
+import HowCyber from "./components/HowCyber";
 
 const cybersecurity = () => {
   return (
@@ -11,6 +12,8 @@ const cybersecurity = () => {
       <CyberHero />
 
       <CyberButtons />
+
+      <HowCyber />
     </div>
   );
 };
