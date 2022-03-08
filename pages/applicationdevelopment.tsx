@@ -1,5 +1,6 @@
 import React from "react";
 import AppHero from "./components/AppHero";
+import DoIt from "./components/DoIt";
 import Header from "./components/Header";
 import HowApp from "./components/HowApp";
 import ServiceButtons from "./components/ServiceButtons";
@@ -14,6 +15,8 @@ const applicationdevelopment = () => {
       <ServiceButtons />
 
       <HowApp />
+
+      <DoIt />
     </div>
   );
 };
