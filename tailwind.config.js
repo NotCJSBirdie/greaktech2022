@@ -21,6 +21,7 @@ module.exports = {
     "./pages/components/HowApp.tsx",
     "./pages/components/DoIt.tsx",
     "./pages/components/StillUnsure.tsx",
+    "./pages/cybersecurity.tsx",
   ],
   theme: {
     extend: {},

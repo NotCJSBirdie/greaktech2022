@@ -16,7 +16,7 @@ const DoIt = () => {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-4 md:grid-rows-2">
+      <div className="grid-rows-8 grid grid-cols-1 gap-6 md:grid-cols-4 md:grid-rows-2">
         <div className="flex flex-col items-center p-10">
           <img
             src="https://greaktech.com/static/media/ReactJSlogo.ccadaa0a.png"
