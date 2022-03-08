@@ -19,6 +19,11 @@ module.exports = {
     "./pages/components/AppHero.tsx",
     "./pages/components/ServiceButtons.tsx",
     "./pages/components/HowApp.tsx",
+    "./pages/components/DoIt.tsx",
+    "./pages/components/StillUnsure.tsx",
+    "./pages/cybersecurity.tsx",
+    "./pages/components/CyberHero.tsx",
+    "./pages/components/CyberButtons.tsx",
   ],
   theme: {
     extend: {},
