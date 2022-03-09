@@ -28,6 +28,8 @@ module.exports = {
     "./pages/components/DoItCyber.tsx",
     "./pages/clouddevelopment.tsx",
     "./pages/components/CloudHero.tsx",
+    "./pages/components/CloudButtons.tsx",
+    "./pages/components/HowCloud.tsx",
   ],
   theme: {
     extend: {},

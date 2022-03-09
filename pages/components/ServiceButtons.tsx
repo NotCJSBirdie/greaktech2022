@@ -30,7 +30,7 @@ const ServiceButtons = () => {
         </div>
 
         <div className="mx-4 w-full md:w-1/4">
-          <Link href="/applicationdevelopment">
+          <Link href="/clouddevelopment">
             <button
               id={styles.servicebuttonC}
               className="text-md mt-6  mb-12 w-full md:my-0"
