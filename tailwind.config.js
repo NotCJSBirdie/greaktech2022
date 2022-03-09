@@ -25,6 +25,9 @@ module.exports = {
     "./pages/components/CyberHero.tsx",
     "./pages/components/CyberButtons.tsx",
     "./pages/components/HowCyber.tsx",
+    "./pages/components/DoItCyber.tsx",
+    "./pages/clouddevelopment.tsx",
+    "./pages/components/CloudHero.tsx",
   ],
   theme: {
     extend: {},
