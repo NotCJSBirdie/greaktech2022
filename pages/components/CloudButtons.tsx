@@ -1,15 +1,15 @@
 import React from "react";
+import styles from "../../styles/CloudButtons.module.css";
 import Link from "next/link";
-import styles from "../../styles/ServiceButtons.module.css";
 
-const ServiceButtons = () => {
+const CloudButtons = () => {
   return (
-    <div className="relative my-10 w-full p-8 md:bottom-12 md:my-0">
+    <div className="relative my-10 w-full p-8 md:bottom-16 md:my-0">
       <div className="flex flex-col items-end px-20 md:flex-row md:items-center">
         <div className="mx-4 w-full md:w-1/4">
           <Link href="/letsgetstarted">
             <button
-              id={styles.servicebuttonA}
+              id={styles.cloudbuttonA}
               className="text-md mb-6  mt-12 w-full md:my-0"
             >
               Application Development
@@ -20,7 +20,7 @@ const ServiceButtons = () => {
         <div className="mx-4 w-full md:w-1/4">
           <Link href="/cybersecurity">
             <button
-              id={styles.servicebuttonB}
+              id={styles.cloudbuttonB}
               className="text-md mt-6  mb-12 w-full md:my-0"
             >
               <div>Cyber</div>
@@ -32,7 +32,7 @@ const ServiceButtons = () => {
         <div className="mx-4 w-full md:w-1/4">
           <Link href="/clouddevelopment">
             <button
-              id={styles.servicebuttonC}
+              id={styles.cloudbuttonC}
               className="text-md mt-6  mb-12 w-full md:my-0"
             >
               Cloud System Development
@@ -43,7 +43,7 @@ const ServiceButtons = () => {
         <div className="mx-4 w-full md:w-1/4">
           <Link href="/applicationdevelopment">
             <button
-              id={styles.servicebuttonD}
+              id={styles.cloudbuttonD}
               className="text-md  mt-6 mb-12 w-full md:my-0"
             >
               Program and Process Management
@@ -55,4 +55,4 @@ const ServiceButtons = () => {
   );
 };
 
-export default ServiceButtons;
+export default CloudButtons;
