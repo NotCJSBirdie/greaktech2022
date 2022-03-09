@@ -1,0 +1,100 @@
+#cloudbuttonD {
+  background-color: #86be73;
+  color: black;
+  border-color: #86be73;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+#cloudbuttonD:focus {
+  outline: none;
+  box-shadow: none;
+
+  outline-offset: none;
+}
+
+#cloudbuttonB {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#cloudbuttonB:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#cloudbuttonB:hover {
+  background-color: #86be73;
+  color: white;
+}
+
+#cloudbuttonD:hover {
+  color: white;
+  background-color: #86be73;
+}
+
+#cloudbuttonC {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#cloudbuttonC:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#cloudbuttonC:hover {
+  background-color: #86be73;
+  color: white;
+}
+
+#cloudbuttonA {
+  background-color: white;
+  color: black;
+  border-color: #86be73;
+  border-width: 3px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+#cloudbuttonA:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none;
+}
+
+#cloudbuttonA:hover {
+  background-color: #86be73;
+  color: white;
+}
