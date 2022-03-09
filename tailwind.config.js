@@ -30,6 +30,7 @@ module.exports = {
     "./pages/components/CloudHero.tsx",
     "./pages/components/CloudButtons.tsx",
     "./pages/components/HowCloud.tsx",
+    "./pages/components/DoItCloud.tsx",
   ],
   theme: {
     extend: {},
