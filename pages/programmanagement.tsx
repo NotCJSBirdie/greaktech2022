@@ -1,8 +1,11 @@
 import React from "react";
+import DoItProgram from "./components/DoItProgram";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HowProgram from "./components/HowProgram";
 import ProgramButtons from "./components/ProgramButtons";
 import ProgramHero from "./components/ProgramHero";
+import StillUnsure from "./components/StillUnsure";
 
 const programmanagement = () => {
   return (
@@ -14,6 +17,12 @@ const programmanagement = () => {
       <ProgramButtons />
 
       <HowProgram />
+
+      <DoItProgram />
+
+      <StillUnsure />
+
+      <Footer />
     </div>
   );
 };

@@ -35,6 +35,7 @@ module.exports = {
     "./pages/components/ProgramHero.tsx",
     "./pages/components/ProgramButtons.tsx",
     "./pages/components/HowProgram.tsx",
+    "./pages/components/DoItProgram.tsx",
   ],
   theme: {
     extend: {},
