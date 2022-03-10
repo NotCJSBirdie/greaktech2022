@@ -7,7 +7,7 @@ const ServiceButtons = () => {
     <div className="relative my-10 w-full p-8 md:bottom-12 md:my-0">
       <div className="flex flex-col items-end px-20 md:flex-row md:items-center">
         <div className="mx-4 w-full md:w-1/4">
-          <Link href="/letsgetstarted">
+          <Link href="/applicationdevelopment">
             <button
               id={styles.servicebuttonA}
               className="text-md mb-6  mt-12 w-full md:my-0"
