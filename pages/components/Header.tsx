@@ -50,7 +50,14 @@ const Header = () => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu id={styles.services}>
-              <Dropdown.Item>Application Development</Dropdown.Item>
+              <Dropdown.Item>
+                <Link href="/applicationdevelopment">
+                  <a className="text-black no-underline">
+                    Application Development
+                  </a>
+                </Link>
+              </Dropdown.Item>
+
               <Dropdown.Item>Cybersecurity</Dropdown.Item>
               <Dropdown.Item>Cloud Systems Development</Dropdown.Item>
               <Dropdown.Item>Project and Process Management</Dropdown.Item>
