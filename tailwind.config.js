@@ -31,6 +31,8 @@ module.exports = {
     "./pages/components/CloudButtons.tsx",
     "./pages/components/HowCloud.tsx",
     "./pages/components/DoItCloud.tsx",
+    "./pages/programmanagement.tsx",
+    "./pages/components/ProgramHero.tsx",
   ],
   theme: {
     extend: {},
