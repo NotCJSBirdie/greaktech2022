@@ -13,36 +13,36 @@ const Form = () => {
         </h3>
       </div>
 
-      <div className="my-6 flex flex-row items-center">
-        <div className="w-1/2 text-center">
+      <div className="my-6 flex flex-col items-center md:flex-row">
+        <div className="w-full text-center md:w-1/2">
           <h3>Email us at info@greaktech.com</h3>
         </div>
 
-        <div className="w-1/2 text-center">
+        <div className="w-full text-center md:w-1/2">
           <h3>Call us at 833-475-8324</h3>
         </div>
       </div>
 
-      <div className="my-6 flex flex-row items-center">
-        <div className="mr-12 w-1/2 text-center">
+      <div className="my-6 flex flex-col items-center md:flex-row">
+        <div className="my-2 w-full text-center md:my-0 md:mr-12 md:w-1/2">
           <input
             type="text"
             placeholder="First Name"
-            className=" w-full border-2 border-gray-400 p-6 text-xl focus:outline-none"
+            className="w-full border-2 border-gray-400 p-6 text-xl focus:outline-none"
           ></input>
         </div>
 
-        <div className="w-1/2 text-center">
+        <div className="my-2 w-full text-center md:my-0 md:w-1/2">
           <input
             type="text"
             placeholder="Last Name"
-            className=" w-full border-2 border-gray-400 p-6 text-xl focus:outline-none"
+            className="w-full border-2 border-gray-400 p-6 text-xl focus:outline-none"
           ></input>
         </div>
       </div>
 
-      <div className="my-6 flex flex-row items-center">
-        <div className="mr-12 w-1/2 text-center">
+      <div className="my-6 flex flex-col items-center md:flex-row">
+        <div className="my-2 w-full text-center md:my-0 md:mr-12 md:w-1/2">
           <input
             type="text"
             placeholder="Company Name"
@@ -50,7 +50,7 @@ const Form = () => {
           ></input>
         </div>
 
-        <div className="w-1/2 text-center">
+        <div className="my-2 w-full text-center md:my-0 md:w-1/2">
           <input
             type="text"
             placeholder="Phone"
@@ -59,8 +59,8 @@ const Form = () => {
         </div>
       </div>
 
-      <div className="my-6 flex flex-row items-center">
-        <div className="mr-12 w-1/2 text-center">
+      <div className="my-6 flex flex-col items-center md:flex-row">
+        <div className="my-2 w-full text-center md:my-0 md:mr-12 md:w-1/2">
           <input
             type="text"
             placeholder="Email Address"
@@ -68,7 +68,7 @@ const Form = () => {
           ></input>
         </div>
 
-        <div className="w-1/2">
+        <div className="my-2 w-full md:my-0 md:w-1/2">
           <select className="w-full border-2 border-gray-400 bg-white p-6 text-xl">
             <option value="" disabled selected>
               I am looking for
